@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Interactiva</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+
+  <h1 id="titulo">Bienvenido a la Landing Page</h1>
+  <p id="parrafo">Este es un texto que puede cambiar dinámicamente.</p>
+  <button id="cambiarTexto">Cambiar Texto</button>
+
+  <hr />
+
+  <!-- Formulario con validación -->
+  <h2>Formulario de Contacto</h2>
+  <form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <hr />
+
+  <!-- Elementos dinámicos -->
+  <h2>Elementos Dinámicos</h2>
+  <button id="agregarElemento">Agregar Párrafo</button>
+  <div id="contenedor"></div>
+
+  <hr />
+
+  <!-- Animaciones -->
+  <h2>Animación con clase CSS</h2>
+  <div id="caja" class="caja">Soy una caja</div>
+  <button id="animar">Mover Caja</button>
+
+  <hr />
+
+  <!-- Modal -->
+  <h2>Modal</h2>
+  <button id="abrirModal">Abrir Modal</button>
+  <div id="modal" class="modal">
+    <div class="modal-contenido">
+      <p>¡Hola! Soy un modal</p>
+      <button id="cerrarModal">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
